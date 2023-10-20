@@ -1,0 +1,1306 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<org.jenkinsci.plugins.cloudstats.CloudStatistics plugin="cloud-stats@320.v96b_65297a_4b_b_">
+  <active class="java.util.concurrent.CopyOnWriteArrayList"/>
+  <log>
+    <data>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>491024987</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 404: {&quot;message&quot;:&quot;pull access denied for ta4e/docker_cloud, repository does not exist or may require &apos;docker login&apos;: denied: requested access to the resource is denied&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.NotFoundException: Status 404: {&quot;message&quot;:&quot;pull access denied for ta4e/docker_cloud, repository does not exist or may require &apos;docker login&apos;: denied: requested access to the resource is denied&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:241)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697692713001</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697692727109</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1664087692</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 404: {&quot;message&quot;:&quot;pull access denied for ta4e/docker_cloud, repository does not exist or may require &apos;docker login&apos;: denied: requested access to the resource is denied&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.NotFoundException: Status 404: {&quot;message&quot;:&quot;pull access denied for ta4e/docker_cloud, repository does not exist or may require &apos;docker login&apos;: denied: requested access to the resource is denied&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:241)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697693100138</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697693107109</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>221581899</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 404: {&quot;message&quot;:&quot;pull access denied for ta4e/docker_cloud, repository does not exist or may require &apos;docker login&apos;: denied: requested access to the resource is denied&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.NotFoundException: Status 404: {&quot;message&quot;:&quot;pull access denied for ta4e/docker_cloud, repository does not exist or may require &apos;docker login&apos;: denied: requested access to the resource is denied&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:241)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697693760016</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697693766969</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>847259264</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697700959846</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697700966830</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1657328767</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697701859842</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697701866831</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1434953044</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697702459811</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697702466678</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>891250455</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697703059819</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697703066687</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1362732401</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697703659817</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697703666679</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1365915823</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697704259737</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697704266689</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1569336515</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697704859815</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697704866676</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1569941929</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697705459766</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697705466682</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>2101503196</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697706359813</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697706366688</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1147278159</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697706959736</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697706966680</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1792706975</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697707559796</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697707566688</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>708016587</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697708159805</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697708166682</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1110079811</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697708759720</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697708766680</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>548967558</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697709359795</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697709366682</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>33979504</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697709959809</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697709966675</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>52776538</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697710559744</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697710566682</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1683773203</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697711159752</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697711166679</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1142005864</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697711759797</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697711766682</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>1274411707</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697712359697</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697712366682</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+        <id>
+          <cloudName>DockerCloudLabs</cloudName>
+          <templateName>dockerCloudLabs (ta4e/docker_cloud)</templateName>
+          <fingerprint>780895239</fingerprint>
+        </id>
+        <name>dockerCloudLabs (ta4e/docker_cloud)</name>
+        <progress class="java.util.Collections$SynchronizedMap" serialization="custom">
+          <java.util.Collections_-SynchronizedMap>
+            <default>
+              <m class="linked-hash-map">
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>PROVISIONING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList">
+                      <org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                        <status>FAIL</status>
+                        <title>Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+</title>
+                        <text>com.github.dockerjava.api.exception.InternalServerErrorException: Status 500: {&quot;message&quot;:&quot;Get \&quot;https://registry-1.docker.io/v2/\&quot;: dialing registry-1.docker.io:443 with direct connection: resolving host registry-1.docker.io: lookup registry-1.docker.io: no such host&quot;}
+&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.execute(DefaultInvocationBuilder.java:247)&#xd;
+	at com.github.dockerjava.core.DefaultInvocationBuilder.lambda$executeAndStream$1(DefaultInvocationBuilder.java:269)&#xd;
+	at java.base/java.lang.Thread.run(Thread.java:1583)&#xd;
+</text>
+                      </org.jenkinsci.plugins.cloudstats.PhaseExecutionAttachment_-ExceptionAttachment>
+                    </attachments>
+                    <started>1697712959792</started>
+                    <phase>PROVISIONING</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>LAUNCHING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>OPERATING</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <null/>
+                </entry>
+                <entry>
+                  <org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>COMPLETED</org.jenkinsci.plugins.cloudstats.ProvisioningActivity_-Phase>
+                  <org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                    <attachments class="java.util.concurrent.CopyOnWriteArrayList"/>
+                    <started>1697712966678</started>
+                    <phase>COMPLETED</phase>
+                  </org.jenkinsci.plugins.cloudstats.PhaseExecution>
+                </entry>
+              </m>
+              <mutex class="java.util.Collections$SynchronizedMap" reference="../../.."/>
+            </default>
+          </java.util.Collections_-SynchronizedMap>
+        </progress>
+      </org.jenkinsci.plugins.cloudstats.ProvisioningActivity>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+      <null/>
+    </data>
+    <next>23</next>
+    <size>23</size>
+  </log>
+</org.jenkinsci.plugins.cloudstats.CloudStatistics>

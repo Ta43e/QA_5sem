@@ -1,0 +1,39 @@
+Started by timer
+Running as SYSTEM
+Building remotely on [8mha:////4GAQ1urXNlnNBLVl6NB+rAMBAWikULnALL7l5IryyMidAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQifZ/MvNIKAAt+35HEAAAA[0mLinux in workspace /home/user/testing/slave/workspace/I Can Win Linux
+FATAL: java.nio.channels.ClosedChannelException
+java.nio.channels.ClosedChannelException
+Also:   hudson.remoting.Channel$CallSiteStackTrace: Remote call to JNLP4-connect connection from DESKTOP-9DDPMEF/192.168.43.142:61680
+		at hudson.remoting.Channel.attachCallSiteStackTrace(Channel.java:1787)
+		at hudson.remoting.Request.call(Request.java:199)
+		at hudson.remoting.Channel.call(Channel.java:1002)
+		at hudson.FilePath.act(FilePath.java:1192)
+		at hudson.FilePath.act(FilePath.java:1181)
+		at hudson.FilePath.mkdirs(FilePath.java:1372)
+		at hudson.model.AbstractProject.checkout(AbstractProject.java:1242)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:649)
+		at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:85)
+		at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:521)
+		at hudson.model.Run.execute(Run.java:1895)
+		at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+		at hudson.model.ResourceController.execute(ResourceController.java:101)
+		at hudson.model.Executor.run(Executor.java:442)
+Caused: hudson.remoting.RequestAbortedException
+	at hudson.remoting.Request.abort(Request.java:346)
+	at hudson.remoting.Channel.terminate(Channel.java:1083)
+	at org.jenkinsci.remoting.protocol.impl.ChannelApplicationLayer.onReadClosed(ChannelApplicationLayer.java:241)
+	at org.jenkinsci.remoting.protocol.ApplicationLayer.onRecvClosed(ApplicationLayer.java:221)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)
+	at org.jenkinsci.remoting.protocol.FilterLayer.onRecvClosed(FilterLayer.java:289)
+	at org.jenkinsci.remoting.protocol.impl.SSLEngineFilterLayer.onRecvClosed(SSLEngineFilterLayer.java:168)
+	at org.jenkinsci.remoting.protocol.ProtocolStack$Ptr.onRecvClosed(ProtocolStack.java:825)
+	at org.jenkinsci.remoting.protocol.NetworkLayer.onRecvClosed(NetworkLayer.java:155)
+	at org.jenkinsci.remoting.protocol.impl.NIONetworkLayer.ready(NIONetworkLayer.java:180)
+	at org.jenkinsci.remoting.protocol.IOHub$OnReady.run(IOHub.java:789)
+	at jenkins.util.ContextResettingExecutorService$1.run(ContextResettingExecutorService.java:28)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:68)
+	at jenkins.util.ErrorLoggingExecutorService.lambda$wrap$0(ErrorLoggingExecutorService.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Finished: FAILURE

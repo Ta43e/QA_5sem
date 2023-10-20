@@ -1,0 +1,178 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <counter>274</counter>
+  <items>
+    <hudson.model.Queue_-BlockedItem>
+      <actions>
+        <hudson.model.ParametersAction>
+          <safeParameters class="sorted-set"/>
+          <parameters>
+            <hudson.model.StringParameterValue>
+              <name>username</name>
+              <value>4wttyu</value>
+            </hudson.model.StringParameterValue>
+          </parameters>
+        </hudson.model.ParametersAction>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>ta4e</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>1</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>132</id>
+      <task class="hudson.model.FreeStyleProject">HelloUser Docker</task>
+      <inQueueSince>1697698338035</inQueueSince>
+      <buildableStartMilliseconds>1697698338037</buildableStartMilliseconds>
+      <outer-class>queue</outer-class>
+    </hudson.model.Queue_-BlockedItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+              <int>60</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>260</id>
+      <task class="hudson.model.FreeStyleProject">Bring It On Linux</task>
+      <inQueueSince>1697749200758</inQueueSince>
+      <buildableStartMilliseconds>1697749200758</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+              <int>60</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>259</id>
+      <task class="hudson.model.FreeStyleProject">Bring It On</task>
+      <inQueueSince>1697749200757</inQueueSince>
+      <buildableStartMilliseconds>1697749200758</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+              <int>185</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>218</id>
+      <task class="hudson.model.FreeStyleProject">I Can Win Linux</task>
+      <inQueueSince>1697736960959</inQueueSince>
+      <buildableStartMilliseconds>1697736960970</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.ParametersAction>
+          <safeParameters class="sorted-set"/>
+          <parameters>
+            <hudson.model.StringParameterValue>
+              <name>username</name>
+              <value>gbrrere</value>
+            </hudson.model.StringParameterValue>
+          </parameters>
+        </hudson.model.ParametersAction>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>ta4e</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>1</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>129</id>
+      <task class="hudson.model.FreeStyleProject" reference="../../hudson.model.Queue_-BlockedItem/task"/>
+      <inQueueSince>1697698117091</inQueueSince>
+      <buildableStartMilliseconds>1697698117091</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>ta4e</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>2</int>
+            </entry>
+            <entry>
+              <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+              <int>60</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>144</id>
+      <task class="hudson.model.FreeStyleProject">Bring It On Docker</task>
+      <inQueueSince>1697699149951</inQueueSince>
+      <buildableStartMilliseconds>1697699149952</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>ta4e</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>1</int>
+            </entry>
+            <entry>
+              <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+              <int>299</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>147</id>
+      <task class="hudson.model.FreeStyleProject">I Can Win Docker</task>
+      <inQueueSince>1697699301245</inQueueSince>
+      <buildableStartMilliseconds>1697699301246</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>ta4e</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>2</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>148</id>
+      <task class="hudson.model.FreeStyleProject">Hardcore Docker</task>
+      <inQueueSince>1697699436658</inQueueSince>
+      <buildableStartMilliseconds>1697699436659</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
+</hudson.model.Queue_-State>
