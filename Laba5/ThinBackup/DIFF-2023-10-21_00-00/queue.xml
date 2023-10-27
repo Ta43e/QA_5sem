@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <counter>375</counter>
+  <items>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+              <int>60</int>
+            </entry>
+            <entry>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>ta4e</userId>
+              </hudson.model.Cause_-UserIdCause>
+              <int>1</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>259</id>
+      <task class="hudson.model.FreeStyleProject">Bring It On</task>
+      <inQueueSince>1697749200757</inQueueSince>
+      <buildableStartMilliseconds>1697749200758</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.triggers.TimerTrigger_-TimerTriggerCause/>
+              <int>23</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>328</id>
+      <task class="hudson.model.FreeStyleProject">I Can Win Linux</task>
+      <inQueueSince>1697828700605</inQueueSince>
+      <buildableStartMilliseconds>1697828700609</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
+</hudson.model.Queue_-State>

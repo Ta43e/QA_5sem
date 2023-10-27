@@ -1,0 +1,7 @@
+Started by user [8mha:////4K5vb+aojhfmLqdrX50InMX5UcNRWEaL0bYX/Qak+iOHAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzREgYu/dLi1CL9kkSTVABrXts1vwAAAA==[0m????? ???? ??????????
+Running as SYSTEM
+Building remotely on [8mha:////4GZNPFRF5Ns1N2qIflF4yG3iDrqyS6vK9CrHYluHWlM+AAAAqB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzZEgZZ/eT83ILSktQifeec/NIUXQMgMDLPrDCqTM8yAQBERFgV0gAAAA==[0mCloud-000027ix2ygj4 on Docker (Cloud) in workspace /home/jenkins/workspace/HelloUser Docker
+[HelloUser Docker] $ /bin/sh -xe /tmp/jenkins17518293002686382737.sh
++ echo hello, ewf!
+hello, ewf!
+Finished: SUCCESS
