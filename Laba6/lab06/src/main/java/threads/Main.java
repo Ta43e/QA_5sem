@@ -8,11 +8,17 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
         // - - - - - - - Task_01 (1) - - - - - - -
-
+=======
+        /*
+>>>>>>> c9521ac08b837d16223556f80385a38959158b70
         Operator operator = new Operator();
         for(int i = 0; i < 10; i++){
             new Thread(new Client(i,operator)).start();
         }
+<<<<<<< HEAD
+=======
+        */
+>>>>>>> c9521ac08b837d16223556f80385a38959158b70
         // - - - - - - - Task_01 (2) - - - - - - -
         /*
         Semaphore semaphore = new Semaphore(2);
