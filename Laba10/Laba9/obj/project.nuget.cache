@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AHPk8sZ8e2mECuzp0OMRCHM3rygzKAqcFfMVVYTTyLp15cFYY6AAqoCPW9GhH/715tad39qmvYUGL5rKwU985Q==",
+  "dgSpecHash": "7Xn4ZzyUMQZyHdoovahi4iaeqQuTQXS+0hjtNJAcIh0Cx1n5U2qrFoNJPMLvnE6/k4DDEdKPtoYtgtq4JJkgpw==",
   "success": true,
-  "projectFilePath": "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba9\\Laba9\\Laba9.csproj",
+  "projectFilePath": "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba10\\Laba9\\Laba9.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ta4e\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Ta4e\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

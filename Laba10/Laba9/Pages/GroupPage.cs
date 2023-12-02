@@ -27,7 +27,7 @@ namespace Laba9.Pages
         }
         public void ClickOnTheGroup()
         {
-            ClickButton(By.XPath("//a[@class='group_row_title' and text()='ONE PIECE | Ван Пис']"));
+            ClickButton(By.XPath("//a[@class='group_row_title' and text()='OnePunch-Man / Ванпанчмен / One punch man']"));
         }
         public void MoveMous()
         {

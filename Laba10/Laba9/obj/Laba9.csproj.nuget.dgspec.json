@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba9\\Laba9\\Laba9.csproj": {}
+    "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba10\\Laba9\\Laba9.csproj": {}
   },
   "projects": {
-    "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba9\\Laba9\\Laba9.csproj": {
+    "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba10\\Laba9\\Laba9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba9\\Laba9\\Laba9.csproj",
+        "projectUniqueName": "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba10\\Laba9\\Laba9.csproj",
         "projectName": "Laba9",
-        "projectPath": "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba9\\Laba9\\Laba9.csproj",
+        "projectPath": "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba10\\Laba9\\Laba9.csproj",
         "packagesPath": "C:\\Users\\Ta4e\\.nuget\\packages\\",
-        "outputPath": "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba9\\Laba9\\obj\\",
+        "outputPath": "D:\\УНИК\\Семестр 5\\Тестирование\\QA_5sem\\Laba10\\Laba9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ta4e\\AppData\\Roaming\\NuGet\\NuGet.Config",

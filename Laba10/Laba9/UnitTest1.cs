@@ -12,7 +12,7 @@ namespace Laba9
 {
     public class Tests
     {
-      [Test]
+       [Test]
         public void SendMessageTest()
         {
             VKPage vkPage = new VKPage(new EdgeDriver());
@@ -40,9 +40,9 @@ namespace Laba9
             groupPage.ClickGroupTab();
             Thread.Sleep(3000);
             groupPage.ClickOnTheGroup();
-            Thread.Sleep(3000);
+            Thread.Sleep(4000);
             groupPage.MoveMous();
-            Thread.Sleep(3000);
+            Thread.Sleep(4000);
             groupPage.ClickUnsub();
             Assert.IsFalse(groupPage.CheckSub().Contains("Подписаться", StringComparison.OrdinalIgnoreCase));
         }
